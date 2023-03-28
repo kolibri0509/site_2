@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body {
-	background: #f3f9fa url("bg.jpg") repeat;
+	background: #f3f9fa url("../img/bg.jpg") repeat;
 	font: 14px Arial;
 	color: 464646;
 	box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 }
 #header {
 	height: 148px;
-	background:white url("bg-header.jpg") left top no-repeat;
+	background:white url("../img/bg-header.jpg") left top no-repeat;
 }
 #footer {
 	height: 50px;
@@ -49,11 +49,11 @@ a:hover {
     text-decoration: none;
 }
 h1 {
-	font: normal 26px/22px Arial;
+	font: normal 26px Arial;
 	margin-bottom: 20px;
 }
 h2 {
-	font: normal 22px/22px Arial;
+	font: normal 22px Arial;
 	margin-bottom: 20px;
 }
 h1,h2,h3 {
@@ -74,7 +74,7 @@ p {
 	text-align: right;
 }
 #header .contacts p {
-	font: bold 18px/14px Arial;
+	font: bold 18px Arial;
 	color: black;
 }
 .green {
@@ -84,14 +84,14 @@ p {
 	color: #666666;
 }
 #header .contacts p .green {
-	font: normal 14px/14px Arial;
+	font: normal 14px Arial;
 }
 #header .contacts p .grey {
-	font: normal 12px/14px Arial;
+	font: normal 12px Arial;
 }
 #navigation {
 	height: 43px;
-	background:transparent url("bg-navigation.png") repeat-x;
+	background:transparent url("../img/bg-navigation.png") repeat-x;
 	clear: both;
 }
 #navigation>ul {
